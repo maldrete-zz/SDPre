@@ -1,21 +1,22 @@
 public class PrintingChoices {
   public static void main( String [] args ) {
     System.out.println( "Alpha" );
-    System.out.println( "Bravo" );
+    System.out.print( "Bravo\n" );
 
-    System.out.println( "Charlie" );
-    System.out.println( "Delta" );
-    System.out.println();
+    System.out.print( "Charlie\n" );
+    System.out.print( "Delta\n" );
+    System.out.print("\n");
 
     System.out.print( "Echo" );
     System.out.print( "Foxtrot" );
 
-    System.out.println( "Golf" );
+    System.out.print( "Golf\n" );
     System.out.print( "Hotel" );
-    System.out.println();
-    System.out.println( "India" );
+    System.out.print("\n");
+    System.out.print( "India\n" );
 
-    System.out.println();
-    System.out.println( "This" + " " + "is" + " " + "a" + " test.");
+    System.out.print("\n");
+    System.out.print( "This" + " " + "is" + " " + "a" + " test.\n");
+    System.out.print("I " + "am learning " + "Java the Hard" + " " + "Way!\n");
   }
 }
